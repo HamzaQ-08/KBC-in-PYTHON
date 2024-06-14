@@ -1,5 +1,5 @@
 #### Overview
-The Kaun Banega Crorepati (KBC) project is a text-based quiz game inspired by the popular Indian television show. It is developed using Python and provides an interactive and engaging way for users to test their knowledge across various subjects. The game emulates the format of the TV show, offering multiple-choice questions, lifelines, and a progressive reward system.
+The Kaun Banega Crorepati (KBC) project is a text-based quiz game inspired by the popular Indian television show. It is developed using Python and provides an interactive and engaging way for users to test their knowledge across various subjects. The game emulates the format of the TV show, offering multiple-choice questions with a progressive reward system.
 
 #### Features
 
