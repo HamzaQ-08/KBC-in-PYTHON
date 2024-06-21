@@ -95,7 +95,7 @@ def price_update(price, correct_answer, price_index=0):
     user_answer = input("Enter the correct answer: ").strip()
     
     if user_answer=="quit" or user_answer=="Quit":
-        print("You quit the game.")
+        print("You quit the game and you are out with",{price[price_index]},"money")
         exit()
     
     elif user_answer.lower() == correct_answer.lower():  # Case-insensitive comparison
