@@ -93,8 +93,12 @@ def price_update(price, correct_answer, price_index=0):
         price_index (int, optional): The current price index. Defaults to 0.
     """
     user_answer = input("Enter the correct answer: ").strip()
-
-    if user_answer.lower() == correct_answer.lower():  # Case-insensitive comparison
+    
+    if user_answer=="quit" or user_answer=="Quit":
+        print("You quit the game.")
+        exit()
+    
+    elif user_answer.lower() == correct_answer.lower():  # Case-insensitive comparison
         print(f"\nSahi jawab! Aap jeet chuke hai {price[price_index]}\n")
         price_index += 1
     else:
