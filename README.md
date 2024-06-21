@@ -31,6 +31,7 @@ The Kaun Banega Crorepati (KBC) project is a text-based quiz game inspired by th
 1. **Start the Game**:
    - Run the main Python script to start the game.
    - The game begins with a welcome message and instructions.
+   - for quitting game your just need to write Quit or quit and you get out of the game
 
 2. **Answer Questions**:
    - Each question is presented with four options.
